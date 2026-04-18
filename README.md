@@ -157,4 +157,16 @@ Adicionalmente, se observa una correspondencia significativa entre los clusters 
 
 ---
 
-## 12. Estructura del Proyecto
+### Selección del Mejor Modelo
+
+Con base en las métricas evaluadas (Silhouette Score, Davies-Bouldin Index y Calinski-Harabasz), el modelo que presenta mejor desempeño global es:
+
+**[NOMBRE DEL MODELO]**
+
+Justificación:
+
+- Presenta el mayor Silhouette Score, indicando mejor separación entre clusters
+- Obtiene el menor Davies-Bouldin Index, reflejando menor similitud entre clusters
+- Tiene un alto Calinski-Harabasz Score, evidenciando buena dispersión inter-cluster
+
+Por lo tanto, este modelo logra el mejor balance entre cohesión interna y separación externa, siendo el más adecuado para este problema.
